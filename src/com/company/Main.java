@@ -2,8 +2,7 @@ package com.company;
 import java.util.*;
 
 public class Main {
-
-    public static void main(String[] args) {
+    public static void task1(){
         String[] array= {"blue","red","green","black","yellow","white","purple"};
         List<String> list = new ArrayList<>();
         for(String i:array){
@@ -22,6 +21,10 @@ public class Main {
         for (String i:listSub){
             System.out.println(i);
         }
+    }
+
+    public static void main(String[] args) {
+        task1();
 
     }
 }
